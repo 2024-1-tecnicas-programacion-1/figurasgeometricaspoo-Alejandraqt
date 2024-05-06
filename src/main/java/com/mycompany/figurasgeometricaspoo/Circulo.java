@@ -19,24 +19,38 @@ public class Circulo extends FiguraGeometrica {
     }
 
     /**
-     * Método para 
-     * Redefine el método obtenerArea de la clase padre FiguraGeometrica.
+     * Método para devolver el radio del circulo
      * 
      * Complejidad temporal: O(1) Tiempo constante.
      */
-    @Override
-    public double obtenerArea() {
-        return super.obtenerArea();
+    public double getRadio() {
+        return this.radio;
     }
     
     /**
-     * Método para 
-     * Redefine el método obtenerPerimetro de la clase padre FiguraGeometrica.
+     * Método para modificar el radio del circulo
      * 
      * Complejidad temporal: O(1) Tiempo constante.
      */
-    @Override
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+    
+    /**
+     * Método para calcular el area del circulo
+     * 
+     * Complejidad temporal: O(1) Tiempo constante.
+     */
+    public double obtenerArea() {
+        return Math.PI*(Math.pow(radio, 2));
+    }
+    
+    /**
+     * Método para calcular el perimetro del circulo
+     * 
+     * Complejidad temporal: O(1) Tiempo constante.
+     */
     public double obtenerPerimetro() {
-        return super.obtenerPerimetro();
+        return 2*Math.PI*radio;
     }
 }
