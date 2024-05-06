@@ -1,6 +1,7 @@
 package com.mycompany.figurasgeometricaspoo;
 
 public class FiguraGeometrica {
+    
     private String nombre;
     private String color;
 
@@ -16,29 +17,4 @@ public class FiguraGeometrica {
         this.nombre = nombre;
         this.color = color;
     }
-
-    /**
-     * Método para 
-     * 
-     * @return 
-     *
-     * Complejidad temporal: O(1) Tiempo constante.
-     */
-    public double obtenerArea() {
-        //
-        return 0.0;
-    }
-
-    /**
-     * Método para 
-     * 
-     * @return 
-     *
-     * Complejidad temporal: O(1) Tiempo constante.
-     */
-    public double obtenerPerimetro() {
-        //
-        return 0.0;
-    }
-    
 }
