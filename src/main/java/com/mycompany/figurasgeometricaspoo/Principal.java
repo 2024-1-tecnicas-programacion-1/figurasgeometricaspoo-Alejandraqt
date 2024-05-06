@@ -4,6 +4,11 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Principal {
+    /**
+     * @param args
+     *
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        
