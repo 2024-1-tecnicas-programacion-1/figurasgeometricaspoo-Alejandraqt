@@ -5,7 +5,7 @@ public class Circulo extends FiguraGeometrica {
     private double radio;
 
      /**
-     * Constructor de la clase Pantalon.
+     * Constructor de la clase Circulo.
      *
      * @param nombre
      * @param color
